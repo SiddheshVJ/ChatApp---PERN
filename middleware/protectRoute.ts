@@ -16,6 +16,7 @@ declare global {
 	}
 }
 
+
 export const protectRoute = async (
 	req: Request,
 	res: Response,
