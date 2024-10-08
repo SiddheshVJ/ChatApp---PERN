@@ -6,9 +6,6 @@ interface DecodedToken extends JwtPayload {
 	userId: string;
 }
 
- git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
-
 declare global {
 	namespace Express {
 		export interface Request {
